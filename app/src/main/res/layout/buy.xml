@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/white"
+                android:padding="4dp">
+
+    <ImageView
+            android:id="@+id/img_one"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/lx"
+            android:layout_centerVertical="true"/>
+
+    <TextView
+            android:id="@+id/tv_one"
+            android:layout_toRightOf="@id/img_one"
+            android:layout_marginLeft="8dp"
+            android:layout_alignParentTop="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:layout_centerVertical="true"
+            android:text="壳薄色艳\n虾肥膏满\n肉质弹牙"/>
+
+    <TextView
+            android:id="@+id/tv_two"
+            android:layout_toRightOf="@id/img_one"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_alignBottom="@id/img_one"
+            android:visibility="gone"
+            android:text="点击了解更多"/>
+
+    <TextView
+            android:id="@+id/img_three"
+            android:layout_toRightOf="@id/tv_one"
+            android:layout_width="wrap_content"
+            android:text="查看"
+            android:layout_marginLeft="8dp"
+            android:textColor="@android:color/holo_red_light"
+            android:textSize="14sp"
+            android:layout_centerVertical="true"
+            android:layout_height="wrap_content"
+            tools:targetApi="ice_cream_sandwich"/>
+</RelativeLayout>
