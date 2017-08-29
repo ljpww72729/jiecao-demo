@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">動画広告</string>
+    <string name="peizhi">動画、広告画像及び広告時間の設定：</string>
+    <string name="xuanzeshipin">1. 動画を選択：</string>
+    <string name="shipindizhi">動画のURL</string>
+    <string name="xuanqu">インストール</string>
+    <string name="xuanzeguanggao">2. 広告画像を選択：</string>
+    <string name="guanggaodizhi">広告画像のURL</string>
+    <string name="dianjidizhi">3. リンク先のURLを設定：</string>
+    <string name="tiaozhuandizhi">广告跳转地址</string>
+    <string name="shijianshezhi">4. 広告時間の設定（単位：秒）：</string>
+    <string name="xianshishiijian">広告開始時間</string>
+    <string name="guanbishijian">広告終了時間</string>
+    <string name="wancheng">完了</string>
+    <string name="chongzhi">リセット</string>
+    <string name="canshubuquan">未記入の項目があります</string>
+    <string name="video">動画</string>
+</resources>
+
